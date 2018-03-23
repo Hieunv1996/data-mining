@@ -30,7 +30,7 @@ def svm():
     else:
         try:
             document = request.form['document']
-            test_data = ViTokenizer.tokenize(test_data)
+            document = ViTokenizer.tokenize(document)
             if document.strip() == '':
                 return render_template('index.html', message='Please enter your document.')
             print(document)
@@ -49,7 +49,7 @@ def nb():
     else:
         try:
             document = request.form['document']
-            test_data = ViTokenizer.tokenize(test_data)
+            document = ViTokenizer.tokenize(document)
             if document.strip() == '':
                 return render_template('index.html', message='Please enter your document.')
             print(document)
