@@ -5,9 +5,14 @@ import config
 import json
 import traceback
 from flask import Flask, request, render_template, jsonify
+import sys
+import os.path
+cwd = os.path.dirname(os.path.realpath(__file__)) + '/'
 
-svm_model = TextClassification(config.SAVE_SVM_PATH)
-nb_model = TextClassification(config.SAVE_NB_PATH)
+
+
+svm_model = TextClassification(cwd + config.SAVE_SVM_PATH)
+nb_model = TextClassification(cwd + config.SAVE_NB_PATH)
 LABELS = config.TARGET_NAMES
 app = Flask(__name__)
 

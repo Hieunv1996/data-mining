@@ -5,7 +5,6 @@ import config
 import numpy as np
 import pickle
 import traceback
-
 LABELS = config.TARGET_NAMES
 
 
