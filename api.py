@@ -109,7 +109,7 @@ def get_data_test(key):
         document = {}
         key = int(key)
         max_key = key + 100
-        for content, target in zip(test_contents, test_targets):
+        for content, target in zip(test_contents[key:], test_targets[key:]):
             document[key] = {'id': key, 'content': content, 'target': LABELS[target]}
             key += 1
             if key > max_key: break
