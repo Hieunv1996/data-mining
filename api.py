@@ -90,6 +90,19 @@ def nb_by_id(id):
         return render_template('index.html', message='Check error. See log file for detail.', document=document)
 
 
+@app.route('/')
+def guide():
+    g = {}
+    g['/'] = 'show guide'
+    g['/nb/'] = 'detect label using naive bayes'
+    g['/svm/'] = 'detect label ussing svm'
+    g['/<key>'] = 'show 100 item in test data from givent key'
+    g['/nb/<id>'] = 'detect labe using nb from testdata'
+    g['/svm/<id>'] = 'detect labe using nb from testdata'
+    g['/checksvm'] = 'check svm correct'
+    g['/checknb'] = 'check nb correct'
+    return jsonify(g)
+
 @app.route('/<key>', methods=['GET'])
 def get_data_test(key):
     try:
