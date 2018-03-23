@@ -90,15 +90,16 @@ def nb_by_id(id):
         return render_template('index.html', message='Check error. See log file for detail.', document=document)
 
 
-@app.route('/', methods=['GET'])
-def get_data_test():
+@app.route('/<key>', methods=['GET'])
+def get_data_test(key):
     try:
         document = {}
-        key = 0
+        key = int(key)
+        max_key = key + 100
         for content, target in zip(test_contents, test_targets):
             document[key] = {'id': key, 'content': content, 'target': LABELS[target]}
             key += 1
-            if key > 100: break
+            if key > max_key: break
         document['target_name'] = target_name
         return json.dumps(document, ensure_ascii=False)
     except:
