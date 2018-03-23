@@ -1,0 +1,4 @@
+Flask==0.12.2
+scipy==1.0.0
+skikit-learn==0.19.1
+numpy
