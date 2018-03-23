@@ -6,6 +6,7 @@ import numpy as np
 import pickle
 import traceback
 LABELS = config.TARGET_NAMES
+from pyvi.pyvi import ViTokenizer
 
 
 def load_model(path):
@@ -33,6 +34,7 @@ class TextClassification(object):
     def detect_one(self, test_data):
         """ Get label for only one element """
         try:
+            test_data = ViTokenizer.tokenize(test_data)
             predicted = self.__model.predict([test_data])
             return predicted[0]
         except:
