@@ -3,6 +3,7 @@ import load_data
 from guess import TextClassification
 import config
 import json
+from pyvi.pyvi import ViTokenizer
 import traceback
 from flask import Flask, request, render_template, jsonify
 import sys
@@ -29,6 +30,7 @@ def svm():
     else:
         try:
             document = request.form['document']
+            test_data = ViTokenizer.tokenize(test_data)
             if document.strip() == '':
                 return render_template('index.html', message='Please enter your document.')
             print(document)
@@ -47,6 +49,7 @@ def nb():
     else:
         try:
             document = request.form['document']
+            test_data = ViTokenizer.tokenize(test_data)
             if document.strip() == '':
                 return render_template('index.html', message='Please enter your document.')
             print(document)
