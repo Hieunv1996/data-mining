@@ -1,0 +1,123 @@
+2018-03-13 22:17:58,254 - make_data - ERROR - Error in make_data: must be str, not int
+2018-03-13 22:18:58,692 - make_data - ERROR - Error in make_data: must be str, not int
+2018-03-13 22:19:37,323 - make_data - ERROR - Error in make_data: must be str, not int
+2018-03-13 22:19:56,535 - make_data - ERROR - Error in make_data: info() takes 2 positional arguments but 3 were given
+2018-03-13 22:20:13,692 - make_data - INFO - Train size: 0
+2018-03-13 22:20:13,692 - make_data - INFO - Test size: 0
+2018-03-13 22:20:13,692 - make_data - ERROR - Error in save_to_file: binary mode doesn't take an encoding argument
+2018-03-13 22:20:13,693 - make_data - ERROR - Error in save_to_file: binary mode doesn't take an encoding argument
+2018-03-13 22:20:42,231 - make_data - INFO - Train size: 0
+2018-03-13 22:20:42,232 - make_data - INFO - Test size: 0
+2018-03-13 22:20:42,232 - make_data - ERROR - Error in save_to_file: [Errno 13] Permission denied: '../res/train/'
+2018-03-13 22:20:42,232 - make_data - ERROR - Error in save_to_file: [Errno 13] Permission denied: '../res/test/'
+2018-03-13 22:21:35,564 - make_data - INFO - Train size: 0
+2018-03-13 22:21:35,565 - make_data - INFO - Test size: 0
+2018-03-13 22:21:35,566 - make_data - INFO - ../res/train/train.txt- Write success!
+2018-03-13 22:21:35,567 - make_data - INFO - ../res/test/test.txt- Write success!
+2018-03-13 22:22:07,987 - make_data - INFO - Train size: 0
+2018-03-13 22:22:07,988 - make_data - INFO - Test size: 0
+2018-03-13 22:22:07,989 - make_data - INFO - ../res/train/train.txt- Write success!
+2018-03-13 22:22:07,990 - make_data - INFO - ../res/test/test.txt- Write success!
+2018-03-13 22:22:16,507 - make_data - INFO - Train size: 0
+2018-03-13 22:22:16,508 - make_data - INFO - Test size: 0
+2018-03-13 22:22:16,509 - make_data - INFO - ../res/train/train.txt- Write success!
+2018-03-13 22:22:16,510 - make_data - INFO - ../res/test/test.txt- Write success!
+2018-03-13 22:24:22,475 - make_data - INFO - Train size: 0
+2018-03-13 22:24:22,476 - make_data - INFO - Test size: 0
+2018-03-13 22:24:22,477 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:24:22,478 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:25:42,172 - make_data - DEBUG - Dir
+2018-03-13 22:25:42,172 - make_data - DEBUG - Dir
+2018-03-13 22:25:42,172 - make_data - DEBUG - Dir
+2018-03-13 22:25:42,172 - make_data - DEBUG - Dir
+2018-03-13 22:25:42,173 - make_data - DEBUG - Dir
+2018-03-13 22:25:42,173 - make_data - DEBUG - Dir
+2018-03-13 22:25:42,174 - make_data - INFO - Train size: 0
+2018-03-13 22:25:42,174 - make_data - INFO - Test size: 0
+2018-03-13 22:25:42,175 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:25:42,175 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:26:05,826 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_datagiaoduc_v3.dat
+2018-03-13 22:26:05,826 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_datakhoahoc_v3.dat
+2018-03-13 22:26:05,826 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_datakinhdoanh_v3.dat
+2018-03-13 22:26:05,826 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_dataphapluat_v3.dat
+2018-03-13 22:26:05,826 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_datasuckhoe_v3.dat
+2018-03-13 22:26:05,827 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_datathethao_v3.dat
+2018-03-13 22:26:05,827 - make_data - INFO - Train size: 0
+2018-03-13 22:26:05,827 - make_data - INFO - Test size: 0
+2018-03-13 22:26:05,828 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:26:05,828 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:26:44,937 - make_data - ERROR - Error in read: [Errno 2] No such file or directory: 'D:/epu/datamining/text-classification/res/master_datagiaoduc_v3.dat'
+2018-03-13 22:26:44,937 - make_data - ERROR - Error in read: [Errno 2] No such file or directory: 'D:/epu/datamining/text-classification/res/master_datakhoahoc_v3.dat'
+2018-03-13 22:26:44,938 - make_data - ERROR - Error in read: [Errno 2] No such file or directory: 'D:/epu/datamining/text-classification/res/master_datakinhdoanh_v3.dat'
+2018-03-13 22:26:44,938 - make_data - ERROR - Error in read: [Errno 2] No such file or directory: 'D:/epu/datamining/text-classification/res/master_dataphapluat_v3.dat'
+2018-03-13 22:26:44,938 - make_data - ERROR - Error in read: [Errno 2] No such file or directory: 'D:/epu/datamining/text-classification/res/master_datasuckhoe_v3.dat'
+2018-03-13 22:26:44,938 - make_data - ERROR - Error in read: [Errno 2] No such file or directory: 'D:/epu/datamining/text-classification/res/master_datathethao_v3.dat'
+2018-03-13 22:26:44,938 - make_data - INFO - Train size: 0
+2018-03-13 22:26:44,939 - make_data - INFO - Test size: 0
+2018-03-13 22:26:44,939 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:26:44,940 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:27:55,679 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:27:55,768 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:27:56,346 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:27:56,430 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:27:59,148 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:28:01,416 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:28:01,466 - make_data - DEBUG - Dir: D:/epu/datamining/text-classification/res/master_data/thethao_v3.dat
+2018-03-13 22:28:01,467 - make_data - INFO - Train size: 0
+2018-03-13 22:28:01,467 - make_data - INFO - Test size: 0
+2018-03-13 22:28:01,469 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:28:01,470 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:29:54,856 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:29:54,860 - make_data - ERROR - Error in make_data: 'NoneType' object has no attribute 'split'
+2018-03-13 22:30:16,902 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:30:17,000 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:30:17,555 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:30:17,644 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:30:19,904 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:30:21,808 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:30:21,852 - make_data - INFO - Train size: 0
+2018-03-13 22:30:21,853 - make_data - INFO - Test size: 0
+2018-03-13 22:30:21,855 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:30:21,856 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:31:21,089 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:31:21,173 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:31:21,740 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:31:21,822 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:32:05,051 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:32:05,147 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:32:05,743 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:32:05,827 - make_data - ERROR - Error in read: 'str' object does not support item assignment
+2018-03-13 22:53:36,495 - make_data - INFO - Train size: 0
+2018-03-13 22:53:36,496 - make_data - INFO - Test size: 0
+2018-03-13 22:53:36,497 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:53:36,497 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:54:21,559 - make_data - INFO - Train size: 6
+2018-03-13 22:54:21,560 - make_data - INFO - Test size: 6
+2018-03-13 22:54:21,561 - make_data - ERROR - Error in save_to_file: a bytes-like object is required, not 'list'
+2018-03-13 22:54:21,562 - make_data - ERROR - Error in save_to_file: a bytes-like object is required, not 'list'
+2018-03-13 22:54:59,340 - make_data - INFO - Train size: 6
+2018-03-13 22:54:59,341 - make_data - INFO - Test size: 6
+2018-03-13 22:54:59,341 - make_data - ERROR - Error in save_to_file: write() argument must be str, not list
+2018-03-13 22:54:59,342 - make_data - ERROR - Error in save_to_file: write() argument must be str, not list
+2018-03-13 22:55:37,085 - make_data - INFO - Train size: 6
+2018-03-13 22:55:37,087 - make_data - INFO - Test size: 6
+2018-03-13 22:56:18,568 - make_data - INFO - Train size: 9600
+2018-03-13 22:56:18,568 - make_data - INFO - Test size: 2400
+2018-03-13 22:56:18,755 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:56:18,808 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:56:54,061 - make_data - INFO - Train size: 9600
+2018-03-13 22:56:54,061 - make_data - INFO - Test size: 2400
+2018-03-13 22:56:54,244 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 22:56:54,293 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-13 22:58:41,010 - make_data - INFO - Train size: 6
+2018-03-13 22:58:41,011 - make_data - INFO - Test size: 6
+2018-03-13 22:58:41,014 - make_data - ERROR - Error in save_to_file: write() argument must be str, not generator
+2018-03-13 22:58:41,016 - make_data - ERROR - Error in save_to_file: write() argument must be str, not generator
+2018-03-13 23:00:14,845 - make_data - INFO - Train size: 7642
+2018-03-13 23:00:14,845 - make_data - INFO - Test size: 1915
+2018-03-13 23:00:15,013 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-13 23:00:15,063 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!
+2018-03-23 09:59:16,124 - make_data - INFO - Train size: 7760
+2018-03-23 09:59:16,126 - make_data - INFO - Test size: 1930
+2018-03-23 09:59:16,299 - make_data - INFO - D:/epu/datamining/text-classification/res/train/train.txt- Write success!
+2018-03-23 09:59:16,347 - make_data - INFO - D:/epu/datamining/text-classification/res/test/test.txt- Write success!

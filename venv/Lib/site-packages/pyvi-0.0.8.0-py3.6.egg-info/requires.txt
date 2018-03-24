@@ -1,0 +1,8 @@
+scikit-learn
+sklearn-crfsuite
+
+[dev]
+check-manifest
+
+[test]
+coverage

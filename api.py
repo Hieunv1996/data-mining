@@ -8,9 +8,8 @@ import traceback
 from flask import Flask, request, render_template, jsonify
 import sys
 import os.path
+
 cwd = os.path.dirname(os.path.realpath(__file__)) + '/'
-
-
 
 svm_model = TextClassification(cwd + config.SAVE_SVM_PATH)
 nb_model = TextClassification(cwd + config.SAVE_NB_PATH)
@@ -95,16 +94,12 @@ def nb_by_id(id):
 
 @app.route('/')
 def guide():
-    g = {}
-    g['/'] = 'show guide'
-    g['/nb/'] = 'detect label using naive bayes'
-    g['/svm/'] = 'detect label ussing svm'
-    g['/key'] = 'show 100 item in test data from givent key(int)'
-    g['/nb/id'] = 'detect labe using nb from testdata[id]'
-    g['/svm/id'] = 'detect labe using nb from testdata[id]'
-    g['/checksvm'] = 'check svm correct'
-    g['/checknb'] = 'check nb correct'
+    g = {'/': 'show guide', '/nb/': 'detect label using naive bayes', '/svm/': 'detect label ussing svm',
+         '/key': 'show 100 item in test data from givent key(int)', '/nb/id': 'detect labe using nb from testdata[id]',
+         '/svm/id': 'detect labe using nb from testdata[id]', '/checksvm': 'check svm correct',
+         '/checknb': 'check nb correct'}
     return jsonify(g)
+
 
 @app.route('/<key>', methods=['GET'])
 def get_data_test(key):
@@ -142,4 +137,4 @@ def check_nb():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run('localhost', 9000)
