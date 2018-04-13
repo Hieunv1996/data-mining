@@ -1,6 +1,26 @@
 # Online demo:
 [https://data-mining-epu.herokuapp.com/](https://data-mining-epu.herokuapp.com/)
-
+# Correct:
+```
+Naive bayes: 
+{
+  "correct": 0.9264248704663213, 
+  "len": 1930
+}
+SMV:
+{
+  "correct": 0.9595854922279793, 
+  "len": 1930
+}
+correct: number of correct testcase / number of testcase
+len: Number of testcase
+```
+# Train and test data:
+Data from some VietNam news website. Data use for this project is in **res** dir
+/res
+|---- train : train data
+|---- test: test data
+|---- master_data: Data before preprocess
 # Requires:
 - python 3.x
 - Numpy
