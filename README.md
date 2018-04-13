@@ -17,10 +17,15 @@ len: Number of testcase
 ```
 # Train and test data:
 Data from some VietNam news website. Data use for this project is in **res** dir
-/res
-|---- train : train data
-|---- test: test data
-|---- master_data: Data before preprocess
+
+/res/
+
+    /---- train : train data
+
+    /---- test: test data
+
+    /---- master_data: Data before preprocess
+
 # Requires:
 - python 3.x
 - Numpy
