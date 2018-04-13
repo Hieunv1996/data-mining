@@ -1,3 +1,6 @@
+# Online demo:
+[https://data-mining-epu.herokuapp.com/](https://data-mining-epu.herokuapp.com/)
+
 # Requires:
 - python 3.x
 - Numpy
@@ -26,5 +29,3 @@ Then you can go to [localhost:9000](localhost:9000) to see what's going on
   "/svm/id": "detect labe using nb from testdata[id]"
 }
 ```
-# Online demo:
-[https://data-mining-epu.herokuapp.com/](https://data-mining-epu.herokuapp.com/)
